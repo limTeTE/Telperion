@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 # Site Settings
 locale                   : "en-US"
 title                    : "Telperion"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Jialin Liu"
 description              : "Self blog for everything i'm addicted to."
 url                      : "https://limtete.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
