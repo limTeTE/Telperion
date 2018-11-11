@@ -15,14 +15,12 @@ main:
 docs:
   - title: BackEnd
     children:
-      - title: python
-        children:
-        - title: Package manager - pip / pipenv
-          url: # pass
-        - title: Testing - unitest/ pytest
-          url: # pass
-        - title: Framework - Django
-          url: # pass
+      - title: Package manager - pip / pipenv
+        url: # pass
+      - title: Testing - unitest/ pytest
+        url: # pass
+      - title: Framework - Django
+        url: # pass
   
   - title: Lit
     children:
