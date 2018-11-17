@@ -3,3 +3,11 @@ layout: home
 author_profile: true
 ---
 {% include figure image_path="/assets/images/exploit-sensorstechforum-1.jpg" alt="placeholder image" caption="" %}
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
