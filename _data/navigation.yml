@@ -10,21 +10,3 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap
-
-# documentation links
-docs:
-  - title: BackEnd
-    children:
-      - title: Package manager - pip / pipenv
-        url: # pass
-      - title: Testing - unitest/ pytest
-        url: # pass
-      - title: Framework - Django
-        url: # pass
-  
-  - title: Lit
-    children:
-      - title: "诗词"
-        url: # pass
-      - title: "随笔"
-        url: # pass
