@@ -19,7 +19,7 @@ tags:
 {% include figure image_path="/assets/images/2018-11-22-EditorDIY/2018-11-23-213717-CPP_GCC.jpg" alt="placeholder image" caption="" %}
 当时只接触过像VS2013这样的IDE，完全没有用过GCC和linux，更不要提后来令人无法自拔的autotools这些工具。后来接触了bash之后，真正认同了，hacker lives only in linux这种理念，无限崇尚自由和个人能力。
 
-第一次接触强大的editor还是起源于[这篇博客](https://blog.csdn.net/redguardtoo/article/details/7222501/)，好奇心害死猫，就跳进了[steve purcell](https://github.com/purcell/emacs.d) + Emacs的深坑，"Emacs :loves: you"这几个字出来的一瞬间，完全被惊艳到：
+第一次接触强大的editor还是起源于[这篇博客](https://blog.csdn.net/redguardtoo/article/details/7222501/)，好奇心害死猫，就跳进了[steve purcell](https://github.com/purcell/emacs.d) + Emacs的深坑，"Emacs :heart: you"这几个字出来的一瞬间，完全被惊艳到：
 {% include figure image_path="/assets/images/2018-11-22-EditorDIY/2018-11-23-214819-EmacsFinal.jpg" alt="placeholder image" caption="" %}
 
 后来偶然发现，linux的terminal/bash中，光标移动的shortcuts和emacs中的完全一样，ipython中也是，MacOS更狠，全系统都是！！！从此就像练了乾坤大挪移以后的张无忌，码字速度飞起，并彻底嫌弃了windows。分屏，语法高亮，build集成，自动补全，目录树，连接ssh，上网，发邮件，真是只有想不到没有emacs不能的！！！
