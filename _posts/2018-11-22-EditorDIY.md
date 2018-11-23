@@ -40,9 +40,9 @@ tags:
 
 ## 推荐的plug-in
 - Package Control: 管理插件的插件，sublimetext2之前是需要添加一段代码到debug terminal中去下载的，现在不用了，直接集成到Sublime3中；快捷键是`CTRL+SHIFT+P`，输入install可以进行安装(以下不在重复这个步骤)，根据网速，页面加载的速度也不一样。
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123221846-packagecontrol-install.png" alt="placeholder image" caption="" %}
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123221948-pacakagecontrol-loading.png" alt="placeholder image" caption="" %}
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123221948-pacakagecontrol-result.png" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123221846-packagecontrol-install.png" alt="placeholder image" caption="打开install页面" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123221948-pacakagecontrol-loading.png" alt="placeholder image" caption="install的库在loading" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123221948-pacakagecontrol-result.png" alt="placeholder image" caption="install库列表" %}
 - Daylee Rees Color Schemes: 配色方案库，只修改配色，不更改界面布局。这个作用就相当于CSS，喜欢什么样的配色，就到packagecontrol里边相应的配色就行，推荐EarthSong，非常平和的颜色。
 ```
 ctrl+shift+p进入package control；
