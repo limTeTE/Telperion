@@ -16,16 +16,16 @@ tags:
 编辑器，像linux自带的vim（当然也可以DIY，我没接触过），mg，nano，gedit，windows下常见的notedpad++，ultraedit，等等，一些IDE也会自带编辑器，比如matlab，VS还有Python最火的集成方案Anaconda+Spyder，是码农日常必备的工具。既然有了这些集成方案，为什么我们会费力去折腾editor。
 
 我DIY的起因可以追溯到看C++ Primer这本书的时候，Stanley B. Lippman写到：
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/2018-11-23-213717-CPP_GCC.jpg" alt="placeholder image" caption="" %}
 当时只接触过像VS2013这样的IDE，完全没有用过GCC和linux，更不要提后来令人无法自拔的autotools这些工具。后来接触了bash之后，真正认同了，hacker lives only in linux这种理念，无限崇尚自由和个人能力。
 
 第一次接触强大的editor还是起源于[这篇博客](https://blog.csdn.net/redguardtoo/article/details/7222501/)，好奇心害死猫，就跳进了[steve purcell](https://github.com/purcell/emacs.d) + Emacs的深坑，"Emacs :loves: you"这几个字出来的一瞬间，完全被惊艳到：
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/2018-11-23-214819-EmacsFinal.jpg" alt="placeholder image" caption="" %}
 
 后来偶然发现，linux的terminal/bash中，光标移动的shortcuts和emacs中的完全一样，ipython中也是，MacOS更狠，全系统都是！！！从此就像练了乾坤大挪移以后的张无忌，码字速度飞起，并彻底嫌弃了windows。分屏，语法高亮，build集成，自动补全，目录树，连接ssh，上网，发邮件，真是只有想不到没有emacs不能的！！！
 
 到现在在自己的pro和有sudo权限的linux上还是emacs，vim一样好，只是我先跳了Richard Stallman的阵营而已。之所以会用SublimeText3，也是拜GFW所赐，同时也有Corey Schafer的功劳。 因为GFW的原因，有一些emacs包下载很慢，而且，emacs本身的配置是要比sublime复杂的。同时Corey在油管上有很好的视频教程，配置sublimetext3环境（btw，Corey的英语非常好听，语速也不快，大家不用字幕也没什么压力，日常煲耳），简直是傻瓜教程。Sublime最吸引人的功能就是多行同时编辑，还有Emmet这个反人类的插件！！！简直是HTML/CSS/JS的救星。最终效果：
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/2018-11-23-212620-FinalResult.png" alt="placeholder image" caption="" %}
 
 总结一下，为什么要DIY：
 - 好看+好玩！！！
@@ -35,14 +35,14 @@ tags:
 
 
 ## 整体方案
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/SublimeText3.png" alt="placeholder image" caption="" %}
 
 
 ## 推荐的plug-in
 - Package Control: 管理插件的插件，sublimetext2之前是需要添加一段代码到debug terminal中去下载的，现在不用了，直接集成到Sublime3中；快捷键是`CTRL+SHIFT+P`，输入install可以进行安装(以下不在重复这个步骤)，根据网速，页面加载的速度也不一样。
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123221846-packagecontrol-install.png" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123221948-pacakagecontrol-loading.png" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123221948-pacakagecontrol-result.png" alt="placeholder image" caption="" %}
 - Daylee Rees Color Schemes: 配色方案库，只修改配色，不更改界面布局。这个作用就相当于CSS，喜欢什么样的配色，就到packagecontrol里边相应的配色就行，推荐EarthSong，非常平和的颜色。
 ```
 ctrl+shift+p进入package control；
@@ -165,8 +165,8 @@ ctrl+shift+p进入package control；
 
 ## 一些坑
 有的时候，网速非常慢，package control经常下载失败，这个时候是可以手动到package control官方网页下载，然后解压缩到package的位置。pacakge的位置通过preference->pacakge browser->User的方式查看。
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123224541-pacakgebrowser.png" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123224541-pacakgebrowser-User.png" alt="placeholder image" caption="" %}
 
 ## 常用快捷键整理
 - <b>Ctrl + shift + p</b>: open command palette
