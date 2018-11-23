@@ -142,6 +142,7 @@ ctrl+shift+p进入package control；
 }
 ```
 - anaconda
+
 ```
 {
     "auto_formatting": true,
@@ -160,7 +161,6 @@ ctrl+shift+p进入package control；
     "display_signatures": false,
     "disable_anaconda_completion": true
 }
-
 ```
 
 ## 一些坑
