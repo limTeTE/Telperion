@@ -11,7 +11,7 @@ tags:
   - Python3
 ---
 
-* WHY
+## WHY
 
 编辑器，像linux自带的vim（当然也可以DIY，我没接触过），mg，nano，gedit，windows下常见的notedpad++，ultraedit，等等，一些IDE也会自带编辑器，比如matlab，VS还有Python最火的集成方案Anaconda+Spyder，是码农日常必备的工具。既然有了这些集成方案，为什么我们会费力去折腾editor。
 
@@ -33,10 +33,12 @@ tags:
 - 代码支持强大：语法高亮，自动补全，自动缩进，complier/intepretor集成，分屏，目录树...
 - 灵活性强，自适应啊！！！
 
-* 整体方案
+
+## 整体方案
 {% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
 
-* 推荐的plug-in
+
+## 推荐的plug-in
 - Package Control: 管理插件的插件，sublimetext2之前是需要添加一段代码到debug terminal中去下载的，现在不用了，直接集成到Sublime3中；快捷键是`CTRL+SHIFT+P`，输入install可以进行安装(以下不在重复这个步骤)，根据网速，页面加载的速度也不一样。
 {% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
 {% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
@@ -65,7 +67,8 @@ ctrl+shift+p进入package control；
 }
 ```
 使用方法是，在相应的代码页面，`ctrl+b`就是了
-* 我的配置
+
+## 我的配置
 - user settings
 ```
 {
@@ -159,11 +162,13 @@ ctrl+shift+p进入package control；
 }
 
 ```
-* 一些坑
+
+## 一些坑
 有的时候，网速非常慢，package control经常下载失败，这个时候是可以手动到package control官方网页下载，然后解压缩到package的位置。pacakge的位置通过preference->pacakge browser->User的方式查看。
 {% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
 {% include figure image_path="/assets/images/2018-11-22-EditorDIY" alt="placeholder image" caption="" %}
-* 常用快捷键整理
+
+## 常用快捷键整理
 - <b>Ctrl + shift + p</b>: open command palette
 - <b>Ctrl + P</b>: search files in project
 - <b>Ctrl + G</b>: jump to lines
@@ -187,7 +192,8 @@ ctrl+shift+p进入package control；
 - <b>Ctrl + k + Ctrl + C</b>: move to the selected line
 - <b>HOME / END</b>: move to the begin / end of the word in the line
 
-* 参考资料
+
+## 参考资料
 - CoreySchafer：该blog是对Corey Schafer视频的一个粗陋整理，详细见原video。
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zVLJfrIwEP8?list=PL-osiE80TeTtHH8BZngXEsLPGotQxZa6z" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
