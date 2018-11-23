@@ -195,10 +195,14 @@ ctrl+shift+p进入package control；
 
 ## 参考资料
 - CoreySchafer：该blog是对Corey Schafer视频的一个粗陋整理，详细见原video。
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zVLJfrIwEP8?list=PL-osiE80TeTtHH8BZngXEsLPGotQxZa6z" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/xFciV6Ew5r4?list=PL-osiE80TeTt66h8cVpmbayBKlMTuS55y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/xqcTfplzr7c?list=PL-osiE80TeTt66h8cVpmbayBKlMTuS55y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 - Official doc
