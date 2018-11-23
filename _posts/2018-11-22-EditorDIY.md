@@ -24,7 +24,7 @@ tags:
 
 后来偶然发现，linux的terminal/bash中，光标移动的shortcuts和emacs中的完全一样，ipython中也是，MacOS更狠，全系统都是！！！从此就像练了乾坤大挪移以后的张无忌，码字速度飞起，并彻底嫌弃了windows。分屏，语法高亮，build集成，自动补全，目录树，连接ssh，上网，发邮件，真是只有想不到没有emacs不能的！！！
 
-到现在在自己的pro和有sudo权限的linux上还是emacs，vim一样好，只是我先跳了Richard Stallman的阵营而已。之所以会用SublimeText3，也是拜GFW所赐，同时也有Corey Schafer的功劳。 因为GFW的原因，有一些emacs包下载很慢，而且，emacs本身的配置是要比sublime复杂的。同时Corey在油管上有很好的视频教程，配置sublimetext3环境（btw，Corey的英语非常好听，语速也不快，大家不用字幕也没什么压力，日常煲耳），简直是傻瓜教程。Sublime最吸引人的功能就是多行同时编辑，还有Emmet这个反人类的插件！！！简直是HTML/CSS/JS的救星。最终效果：
+到现在，在自己的pro和有sudo权限的linux上还是emacs，vim一样好，只是我先跳了Richard Stallman的阵营而已。之所以会用SublimeText3，也是拜GFW所赐，同时也有Corey Schafer的功劳。 因为GFW的原因，有一些emacs包下载很慢，而且，emacs本身的配置是要比sublime复杂的。同时Corey在油管上有很好的视频教程，配置sublimetext3环境（btw，Corey的英语非常好听，语速也不快，大家不用字幕也没什么压力，日常煲耳），简直是傻瓜教程。Sublime最吸引人的功能就是多行同时编辑，还有Emmet这个反人类的插件！！！简直是HTML/CSS/JS的救星。最终效果：
 {% include figure image_path="/assets/images/2018-11-22-EditorDIY/2018-11-23-212620-FinalResult.png" alt="placeholder image" caption="" %}
 
 总结一下，为什么要DIY：
@@ -165,8 +165,8 @@ ctrl+shift+p进入package control；
 
 ## 一些坑
 有的时候，网速非常慢，package control经常下载失败，这个时候是可以手动到package control官方网页下载，然后解压缩到package的位置。pacakge的位置通过preference->pacakge browser->User的方式查看。
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123224541-pacakgebrowser.png" alt="placeholder image" caption="" %}
-{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123224541-pacakgebrowser-User.png" alt="placeholder image" caption="" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123224541-pacakgebrowser.png" alt="placeholder image" caption="查看Browse pacakges" %}
+{% include figure image_path="/assets/images/2018-11-22-EditorDIY/20181123224541-pacakgebrowser-User.png" alt="placeholder image" caption="SublimeText3个人配置文件以及插件" %}
 
 ## 常用快捷键整理
 - <b>Ctrl + shift + p</b>: open command palette
@@ -205,4 +205,7 @@ ctrl+shift+p进入package control；
 <iframe width="640" height="360" src="https://www.youtube.com/embed/xqcTfplzr7c?list=PL-osiE80TeTt66h8cVpmbayBKlMTuS55y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- Official doc
+- doc
+    - [SublimeText3 Unofficial](http://docs.sublimetext.info/en/latest/)
+    - [Package Contorl](https://packagecontrol.io/)
+    - [Common Shortcuts](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html)
