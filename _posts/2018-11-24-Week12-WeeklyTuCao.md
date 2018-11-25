@@ -130,3 +130,9 @@ ps plus：
 ```
 非常有道理！  
 反正我们不干正事的时候都非常有激情。
+
+ps plus max:
+
+日常安利林曦老师！
+
+{% include figure image_path="/assets/images/2018-11-24-WeeklyTuCao/20181125162039-AnLi.jpg" alt="placeholder image" caption="" %}
