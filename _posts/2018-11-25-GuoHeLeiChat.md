@@ -1,7 +1,7 @@
 ---
 title: "来自华山的郭"
 header:
-  image: /assets/images/2018-11-25-GuoHeLeiChat/2018-11-25-125426-GuoHeLeiChat.jpg
+  image: /assets/images/2018-11-25-GuoHeLeiChat/2018-11-25-125426-GuoHeLeiChat_test.jpg
   caption: 没有手残地贴好了键盘膜！
 categories:
   - 随笔
